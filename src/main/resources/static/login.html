@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>OpenBot Console </title>
+</head>
+<body>
+    <div class="wrapper">
+        <!-- Must match the endpoint specified in security config -->
+        <h1>GAT Console Login Form</h1>
+        <form name='loginForm' action="authenticate" method='POST'>
+            <table>
+                <tr>
+                    <td>User:</td>
+                    <td><input type="text" name="username" placeholder="k everyperson"/></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="password" placeholder="1234abcd"/></td>
+                </tr>
+                <tr>
+                    <td><input name="submit" type="submit" value="submit"/></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>

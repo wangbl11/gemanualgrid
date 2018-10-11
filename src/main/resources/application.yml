@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: imtest
+      username: admin
+      authentication-database: admin
+      password: admin
+server:
+  port: 8880
+logging:
+  pattern:
+    dateformat: "%d{yyyy-MM-dd HH:mm:ss.SSS} %5p [%15.15t] %-40.40c{1.} [%X{user}] : %m%n%xwEx"
+  file: log
